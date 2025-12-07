@@ -28,7 +28,7 @@ fetch(API_URL)
     .then(data => {
         // Update member names
         cap.textContent = data.dCapM;
-        sec.textContent = data.dSecMM;
+        sec.textContent = data.dSecM;
         trea.textContent = data.dTreaM;
         res1.textContent = data.dRes1M;
         res2.textContent = data.dRes2M;
