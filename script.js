@@ -76,12 +76,12 @@ fetch(API_URL)
     });
 
     function updateCountdown() {
-    const futureDate = new Date('April 23, 2026 23:59:59');
+    const futureDate = new Date('April 15, 2026 23:59:59');
     const now = new Date();
     let diff = futureDate - now;
 
     if (diff < 0) {
-        document.getElementById('message').textContent = 'Challenge completed. Awarding: April 25, 2025.';
+        document.getElementById('message').textContent = 'Challenge completed. Awarding: April 18, 2025.';
         return;
     }
 
